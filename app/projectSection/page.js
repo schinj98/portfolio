@@ -335,7 +335,7 @@ const ProjectsSection = () => {
           isVisible['projects-header'] ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
         }`}>
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/schinj98"
             target="_blank"
             rel="noopener noreferrer"
             className="group inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 text-white font-bold rounded-full hover:shadow-2xl transition-all duration-300 transform hover:scale-105 relative overflow-hidden"
