@@ -33,7 +33,7 @@ const ProjectsSection = () => {
         uptime: '99.9%',
         response: '<200ms'
       },
-      github: 'https://github.com/yourusername/vpn-platform',
+      github: 'https://github.com/schinj98/shieldnetvpn',
       live: null,
       status: 'In Progress'
     },
@@ -59,7 +59,7 @@ const ProjectsSection = () => {
         profiles: '10K+',
         optimization: '80%'
       },
-      github: 'https://github.com/yourusername/arcade-track',
+      github: null,
       live: 'https://arcade-track.vercel.app',
       status: 'Live'
     },

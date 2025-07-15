@@ -79,7 +79,6 @@ const HeroSection = () => {
   const stats = [
     { number: '550+', label: 'Problems Solved', icon: '💻', color: 'from-blue-500 to-cyan-500' },
     { number: '1857', label: 'LeetCode Rating', icon: '🏆', color: 'from-purple-500 to-pink-500' },
-    { number: '7.8', label: 'CGPA', icon: '📊', color: 'from-green-500 to-emerald-500' },
     { number: '3', label: 'Major Projects', icon: '🚀', color: 'from-orange-500 to-red-500' }
   ];
 
@@ -191,7 +190,7 @@ const HeroSection = () => {
             Pursuing <span className="font-semibold text-blue-600">B.Tech at J.C. Bose University</span> & 
             <span className="font-semibold text-purple-600"> B.Sc at IIT Patna</span> | 
             Building scalable solutions with modern technologies | 
-            <span className="font-semibold text-pink-600"> LeetCode Knight</span> with 1814 rating
+            <span className="font-semibold text-pink-600"> LeetCode Knight</span> with 1857 rating
           </p>
           
           {/* Enhanced CTA Buttons */}
@@ -212,8 +211,8 @@ const HeroSection = () => {
               </span>
             </Link>
             
-            <a
-              href="/resume.pdf"
+            {/* <a
+              href="/files/resume.pdf"
               download
               className="group relative inline-flex items-center justify-center px-8 py-4 overflow-hidden font-bold rounded-full shadow-xl transition-all duration-300 transform hover:scale-105 bg-white dark:bg-gray-800 text-gray-800 dark:text-white border-2 border-gray-200 dark:border-gray-700"
             >
@@ -224,11 +223,11 @@ const HeroSection = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                 </svg>
               </span>
-            </a>
+            </a> */}
           </div>
           
           {/* Enhanced Stats with counters */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto mb-16">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-6 max-w-4xl mx-auto mb-16">
             {stats.map((stat, index) => (
               <div
                 key={index}

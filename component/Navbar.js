@@ -23,7 +23,6 @@ const Navbar = () => {
     { name: 'About', href: '#about' },
     { name: 'Projects', href: '#projects' },
     { name: 'Resume', href: '/ResumePage' },
-    { name: 'Contact', href: '#contact' },
   ];
 
   return (
@@ -61,7 +60,7 @@ const Navbar = () => {
               ))}
               
               {/* Hire Me Button - Eye-catching CTA */}
-              <button className="relative inline-flex items-center justify-center px-6 py-2.5 overflow-hidden font-medium text-white bg-gradient-to-r from-blue-600 to-purple-600 rounded-full group hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+              <button onClick={() => window.location.href = 'mailto:schinj98@gmail.com'} className="cursor-pointer relative inline-flex items-center justify-center px-6 py-2.5 overflow-hidden font-medium text-white bg-gradient-to-r from-blue-600 to-purple-600 rounded-full group hover:shadow-xl transition-all duration-300 transform hover:scale-105">
                 <span className="absolute w-0 h-0 transition-all duration-500 ease-out bg-white rounded-full group-hover:w-56 group-hover:h-56"></span>
                 <span className="relative group-hover:text-blue-600">Hire Me!</span>
               </button>

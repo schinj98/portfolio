@@ -38,7 +38,7 @@ const ResumePage = () => {
       organization: 'IIT Patna',
       location: 'Online/Hybrid',
       duration: '2024 - 2026',
-      highlights: ['CGPA: 7.8', 'Data Science Focus', 'Machine Learning'],
+      highlights: ['Data Science Focus', 'Machine Learning'],
       icon: '🎓',
       color: 'from-purple-400 to-pink-500'
     },
@@ -49,7 +49,7 @@ const ResumePage = () => {
       organization: 'J.C. Bose University',
       location: 'Faridabad, Haryana',
       duration: '2022 - 2026',
-      highlights: ['CGPA: 7.6', 'Electronics & Computer Engineering'],
+      highlights: ['Electronics & Computer Engineering'],
       icon: '🏫',
       color: 'from-blue-400 to-indigo-500'
     }
@@ -188,11 +188,11 @@ const ResumePage = () => {
                 </svg>
                 +91-9518276536
               </a>
-              <a href="mailto:Sachinreal2003@gmail.com" className="flex items-center gap-2 hover:scale-110 transition-transform">
+              <a href="mailto:Schinj98@gmail.com" className="flex items-center gap-2 hover:scale-110 transition-transform">
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
-                Sachinreal2003@gmail.com
+                Schinj98@gmail.com
               </a>
               <span className="flex items-center gap-2">
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -204,15 +204,15 @@ const ResumePage = () => {
 
             {/* Action Buttons */}
             <div className="flex flex-wrap justify-center gap-4 mt-8">
-              <a
+              {/* <a
                 href="/Sachin_Jangid_Resume.pdf"
                 download
                 className="bg-white text-blue-600 px-6 py-3 rounded-full font-bold hover:shadow-lg transition-all transform hover:scale-105"
               >
                 📄 Download Resume
-              </a>
+              </a> */}
               <Link
-                href="/#contact"
+                href="mailto:schinj98@gmail.com"
                 className="border-2 border-white px-6 py-3 rounded-full font-bold hover:bg-white hover:text-blue-600 transition-all"
               >
                 💬 Let's Connect
@@ -229,9 +229,8 @@ const ResumePage = () => {
 
       {/* Quick Stats */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-10 relative z-10">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
           {[
-            { label: 'Current CGPA', value: '7.8', subtext: 'IIT Patna', icon: '🎯' },
             { label: 'LeetCode Rating', value: '1814', subtext: 'Knight Badge', icon: '👑' },
             { label: 'Projects Built', value: '3+', subtext: 'Production Ready', icon: '🚀' },
             { label: 'DSA Problems', value: '550+', subtext: 'Solved', icon: '💡' }
@@ -529,12 +528,6 @@ const ResumePage = () => {
             I'm passionate about creating innovative solutions and always excited to take on new challenges.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <Link
-              href="/#contact"
-              className="bg-white text-blue-600 px-8 py-4 rounded-full font-bold hover:shadow-lg transition-all transform hover:scale-105"
-            >
-              Hire Me
-            </Link>
             <a
               href="mailto:schinj98@gmail.com"
               className="border-2 border-white px-8 py-4 rounded-full font-bold hover:bg-white hover:text-blue-600 transition-all"
